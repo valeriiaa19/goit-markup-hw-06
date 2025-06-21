@@ -174,7 +174,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-mob.jpg);
+      url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -189,7 +189,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-mob-2x.jpg);
+        url(../images/people-office.jpg);
     }
   }
   
@@ -1108,7 +1108,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-tab.jpg);
+        url(../images/people-office.jpg);
     }
   
     @media screen and (min-resolution: 2x) {
@@ -1117,7 +1117,7 @@ body {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-tab-2x.jpg);
+          url(../images/people-office.jpg);
       }
     }
   
@@ -1143,9 +1143,9 @@ body {
     }
   
     .team .container {
-      max-width: 764px;
-      padding: 0 108px;
-    }
+        max-width: 584px;
+        padding: 0;
+      }
   
     .team-title-list {
       gap: 64px 24px;
@@ -1153,6 +1153,11 @@ body {
   
     .team-item {
       width: calc((100% - 24px) / 2);
+    }
+    
+    .team-image {
+        width: 100%;
+        height: auto;
     }
   
     .portfolio-list {
@@ -1168,8 +1173,8 @@ body {
     }
   
     .footer .container {
-      max-width: 764px;
-      padding: 0 108px;
+        max-width: 584px;
+        padding: 0;
     }
   
     .footer-logo {
@@ -1232,7 +1237,9 @@ body {
       letter-spacing: 0.02em;
     }
   
-    .hero {
+    .hero { 
+      padding-top: 180px;
+      padding-bottom: 180px;
       max-width: 1440px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -1247,7 +1254,7 @@ body {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-des-2x.jpg);
+          url(../images/people-office.jpg);
       }
     }
   
@@ -1336,6 +1343,7 @@ body {
     .footer .container {
       max-width: 1158px;
       padding: 0 15px;
+      gap: unset;
     }
   
     .footer-subtitle {
